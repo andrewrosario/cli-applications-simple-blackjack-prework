@@ -41,6 +41,11 @@ def hit?(card_total)
   prompt_user
   choice = get_user_input
   case choice
+    when 'h'
+      deal_card
+    when 's'
+      return card_total
+    
   
 end
 
