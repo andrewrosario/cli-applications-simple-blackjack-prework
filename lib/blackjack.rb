@@ -61,5 +61,13 @@ end
 
 def runner
   # code runner here
+  card_total = 0
+  welcome
+  card_total = initial_round
+  display_card_total(card_total)
+  prompt_user
+  hit?(card_total)
+  
+  
 end
     
